@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   [ELK Install](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/ELK/elk.yml)\
   [DVWA](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/DVWA/pentest.yml)\
   [Filebeat](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)\
-  [MetricBeat](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/Metricbeat/metricbeat-playbook.yml)\
+  [MetricBeat](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/Metricbeat/metricbeat-playbook.yml)
   
 This document contains the following details:
 - Description of the Topology
