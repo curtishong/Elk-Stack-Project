@@ -5,9 +5,12 @@ The files in this repository were used to configure the network depicted below.
 ![Filepath to diagram](https://github.com/curtishong/Elk-Stack-Project/blob/main/Diagrams/Virtual%20Network.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
-
- [Filebeat Playbook](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)
-
+  
+  [ELK Install](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/ELK/elk.yml)
+  [DVWA](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/DVWA/pentest.yml)
+  [Filebeat](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)
+  [MetricBeat](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/Metricbeat/metricbeat-playbook.yml)
+  
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -77,14 +80,15 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![File path to docker ps]()
+![Docker PS](https://github.com/curtishong/Elk-Stack-Project/blob/e521e26667d7c6a95d7c81cd56d4f696ac6b60fc/Scripts/Anisible/Images/Docker%20PS.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+
 The ELK Server monitors the following IPs:
 
 10.0.0.5
+
 10.0.0.6
 
 We have installed the following Beats on these machines:
@@ -100,5 +104,5 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the [ELK Install](https://github.com/curtishong/Elk-Stack-Project/blob/7afe1326459a308aa9ca5c9aaf76f29ea229b897/Scripts/Anisible/ELK/elk.yml)
-- Update the hosts file to include our IP and change the ansible_python_interpreter=/usr/bin/python3. 
+- Update the hosts [Hosts](https://github.com/curtishong/Elk-Stack-Project/blob/6e91b69737b5abf007f83c40c54deb5276923b2f/Scripts/Anisible/ELK/hosts) file to include our IP and change the ansible_python_interpreter=/usr/bin/python3. 
 - Run the playbook, and navigate to http://[your_elk_server]:5601/app/kibana to check that the installation worked as expected.
