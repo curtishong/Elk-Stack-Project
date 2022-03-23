@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
- ![Filepath to Filebeat Playbook](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)
+ [Filebeat Playbook](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -99,7 +99,7 @@ Filebeat collects system type events like login to see who is trying to login in
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ![path to filebeat file](https://github.com/curtishong/Elk-Stack-Project/blob/dbbf0417ab33f999f4fb6b614d0703a22a13bc1d/Scripts/Anisible/Filebeat/filebeat-config.yml)
+- Copy the ![FileBeat Config](https://github.com/curtishong/Elk-Stack-Project/blob/dbbf0417ab33f999f4fb6b614d0703a22a13bc1d/Scripts/Anisible/Filebeat/filebeat-config.yml)
 - Update the host file to include our IP and change the ansible_python_interpreter=/usr/bin/python3. 
 - Run the playbook, and navigate to http://[your_elk_server]:5601/app/kibana to check that the installation worked as expected.
 
