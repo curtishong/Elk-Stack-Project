@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/curtishong/Elk-Stack-Project/blob/main/Diagrams/Virtual%20Network.png
+![Filepath to diagram](https://github.com/curtishong/Elk-Stack-Project/blob/main/Diagrams/Virtual%20Network.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
- https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml
+ [Elk-Stack-Project](https://github.com/curtishong/Elk-Stack-Project/blob/29a3c34a4b2dc4819ede0620547c623d4efebe62/Scripts/Anisible/Filebeat/filebeat-playbook.yml)
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
